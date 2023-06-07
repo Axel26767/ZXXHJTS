@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: #800080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    
+    
+
+}
+
+h1{
+    
+    font-family: inter;
+    font-size: 72px;
+    font-weight: 800;
+    background: linear-gradient(270deg, #b527cf, #3bd9d9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 50%;
+    left: 50%;
+    
+}
+
+
+
+
+
+
+
+p{
+    font-size: xx-large;
+    padding: 15%;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    
+   
+
+
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+    margin-left: 34%;
+    margin-top: 100px;
+    background-color:  palevioletred;
+}
+
+#noBtn{
+    position: translate(-100%,0);
+    margin-left: 25%;
+    background-color:  purple;
+    
+}
+
+
+.image-with-text {
+    display: flex;
+   padding-top: 2%;
+    margin-left: 40%;
+}
